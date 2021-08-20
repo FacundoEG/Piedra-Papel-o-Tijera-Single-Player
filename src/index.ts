@@ -6,7 +6,7 @@ import "./components/ring";
 import "./components/hands";
 
 (function () {
-  state.restoreState()
+  state.restoreState();
   const rootEl = document.querySelector(".root");
   initRouter(rootEl);
 })();

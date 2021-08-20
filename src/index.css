@@ -58,9 +58,19 @@ body {
 .player-container {
   display: flex;
   margin: 0 auto;
-  width: 425px;
-  gap: 160px;
+  width: 300px;
+  gap: 120px;
   height: 50vh;
+}
+
+@media (min-width: 750px) {
+  .player-container {
+    display: flex;
+    margin: 0 auto;
+    width: 425px;
+    gap: 160px;
+    height: 50vh;
+  }
 }
 
 .final-game-container {
@@ -80,6 +90,7 @@ body {
   height: 100vh;
   background-image: url("./assets/fondo.png");
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
   padding: 35px;
