@@ -23,6 +23,15 @@ body {
   }
 }
 
+.timeout-container {
+  height: 100vh;
+  background-image: url("./assets/fondo.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .hands-container {
   display: flex;
   gap: 35px;
@@ -86,7 +95,8 @@ body {
 }
 
 .win-container,
-.loss-container {
+.loss-container,
+.draw-container {
   height: 100vh;
   background-image: url("./assets/fondo.png");
   display: flex;
@@ -103,6 +113,10 @@ body {
 
 .loss-container {
   background-color: rgba(137, 73, 73, 0.9);
+}
+
+.draw-container {
+  background-color: #00459fb0;
 }
 
 .win-star,

@@ -7,6 +7,7 @@ import "./components/hands";
 
 (function () {
   state.restoreState();
+  console.log("hola")
   const rootEl = document.querySelector(".root");
   initRouter(rootEl);
 })();

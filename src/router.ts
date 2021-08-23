@@ -3,6 +3,8 @@ import { initIndexPage } from "./pages/instructions";
 import { initGamePage } from "./pages/game";
 import { initWinPage } from "./pages/win";
 import { initDefeatPage } from "./pages/defeat";
+import { initTimeoutPage } from "./pages/timeout";
+import { initDrawPage } from "./pages/draw";
 
 const rutas = [
   {
@@ -22,6 +24,10 @@ const rutas = [
     component: initGamePage,
   },
   {
+    path: /\/timeout/,
+    component: initTimeoutPage,
+  },
+  {
     path: /\/victoria/,
     component: initWinPage,
   },
@@ -29,6 +35,10 @@ const rutas = [
     path: /\/derrota/,
     component: initDefeatPage,
   },
+  {
+    path: /\/empate/,
+    component: initDrawPage,
+  }
 ];
 
 export function initRouter(container: Element) {

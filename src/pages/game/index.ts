@@ -66,7 +66,7 @@ export function initGamePage(params){
   function redirect(){
   if (finalResult == "victoria"){params.goTo("/victoria")}
   if (finalResult == "derrota"){params.goTo("/derrota")}
-  if (finalResult == "empate"){params.goTo("/game")}}
+  if (finalResult == "empate"){params.goTo("/empate")}}
 
   //LA ACTIVA A LOS 2 SEGUNDOS DE DEVOLVER EL RESLULTADO
   setTimeout(()=>{redirect()},2000)
@@ -96,7 +96,7 @@ export function initGamePage(params){
   // A LOS 3 SEG CORTA EL INTERVALO
   var timeout
   function setTimeOut() {
-  timeout = setTimeout(()=>{clearInterval(contador),location.reload()},3999)
+  timeout = setTimeout(()=>{clearInterval(contador),params.goTo("/timeout")},3999)
   }
 
   setTimeOut()
