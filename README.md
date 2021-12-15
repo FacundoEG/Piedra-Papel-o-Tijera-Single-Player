@@ -4,7 +4,7 @@ WEBAPP PIEDRA PAPEL O TIJERA ONLINE (SINGLE PLAYER MODE)
 
 Breakpoint a los 750px de ancho.
 
-Link de acceso a la webapp en Github Pages: https://facundoeg.github.io/desafio-m5
+Link de acceso a la webapp en Github Pages: https://facundoeg.github.io/Piedra-Papel-o-Tijera-Single-Player
 
 Webapp creada para el desafío final del modulo 5 de la carrera de programación web fullstack en APXschool.
 
